@@ -1,5 +1,4 @@
 import { easing } from "maath";
-import { useSpring } from "framer-motion";
 import { useSnapshot } from "valtio";
 import { useFrame } from "@react-three/fiber";
 import { Decal, useGLTF, useTexture } from "@react-three/drei";
