@@ -1,4 +1,11 @@
-import { swatch, fileIcon, ai, logoShirt, stylishShirt } from "../assets";
+import {
+  swatch,
+  fileIcon,
+  ai,
+  logoShirt,
+  stylishShirt,
+  download,
+} from "../assets";
 
 export const EditorTabs = [
   {
@@ -36,3 +43,10 @@ export const DecalTypes = {
     filterTab: "stylishShirt",
   },
 };
+
+export const DownloadImg = [
+  {
+    name: "Download",
+    icon: download,
+  },
+];
